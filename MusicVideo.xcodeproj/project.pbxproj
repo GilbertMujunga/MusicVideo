@@ -12,6 +12,7 @@
 		EE20B78E1D06B0E7002EC5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE20B78C1D06B0E7002EC5CD /* Main.storyboard */; };
 		EE20B7901D06B0E7002EC5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20B78F1D06B0E7002EC5CD /* Assets.xcassets */; };
 		EE20B7931D06B0E7002EC5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE20B7911D06B0E7002EC5CD /* LaunchScreen.storyboard */; };
+		EEF29F361D06D80F00C7C41A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF29F351D06D80F00C7C41A /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE20B78F1D06B0E7002EC5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE20B7921D06B0E7002EC5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE20B7941D06B0E7002EC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF29F351D06D80F00C7C41A /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		EE20B79A1D06CD3B002EC5CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EEF29F351D06D80F00C7C41A /* APIManager.swift */,
 				EE20B78A1D06B0E7002EC5CD /* ViewController.swift */,
 			);
 			name = Model;
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF29F361D06D80F00C7C41A /* APIManager.swift in Sources */,
 				EE20B78B1D06B0E7002EC5CD /* ViewController.swift in Sources */,
 				EE20B7891D06B0E7002EC5CD /* AppDelegate.swift in Sources */,
 			);
@@ -320,6 +324,7 @@
 				EE20B7991D06B0E7002EC5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
